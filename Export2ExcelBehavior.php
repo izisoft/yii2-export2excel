@@ -302,9 +302,8 @@ class Export2ExcelBehavior extends Behavior
         }
         $excelName = self::save2Excel($excel_content, $excel_file, $excel_props);
         if ($excelName) {
-            return $this->owner->redirect([Url::to('download'), "file_name" => 'temp/' . basename($excelName)
-                , "file_type" => 'excel'
-                , 'deleteAfterDownload' => true]);
+            downloadFile('temp/' . basename($excelName),'excel',true);
+            return true;
         }
     }
 
