@@ -101,7 +101,8 @@ Please find from:
 [Yii2 Export2Excel Extension](http://www.yiiframework.com/extension/yii2-export2excel/).
 
 	
-Xem thêm các dự án viết bằng yii2 framework
+Xem thêm các dự án viết bằng yii framework
+-----
 
 [Kho hàng US - Dịch vụ đặt hàng Mỹ số 1 Việt Nam](https://www.khohangus.com)
 
